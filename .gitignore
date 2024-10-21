@@ -1,0 +1,69 @@
+# Arquivos de build
+bin/
+obj/
+
+# Arquivos gerados pela build de testes
+TestResults/
+
+# Arquivos do Visual Studio
+.vscode/
+.vs/
+.idea/
+
+# Arquivo de usuário do Visual Studio, não deve ser versionado
+*.user
+*.rsuser
+*.suo
+
+# Logs do Visual Studio
+*.log
+
+# Builds de pacotes NuGet
+*.nupkg
+*.snupkg
+
+# Diretórios de pacotes NuGet
+packages/
+!packages/build/
+!packages/repositories.config
+
+# Diretórios de pacotes NuGet restaurados pelo Visual Studio
+**/packages/*
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Arquivos de lock do SDK
+global.json
+
+# Diretórios temporários de build
+*.pidb
+*.tlog
+*.temp
+
+# Arquivos de configuração de usuário
+*.csproj.user
+*.rsuser
+
+# Arquivos do Rider
+.idea/
+
+# Arquivos de lock de dependências
+*.lock.json
+
+# Arquivos de cache do Test Explorer
+TestExplorerTemp/
+
+# Arquivos de publish (por exemplo, ao publicar em Azure ou IIS)
+publish/
+
+# Diretórios de build
+artifacts/
+
+# Outras configurações locais
+.env
+
+# Logs e temporários de sistema
+*.log
+*.tmp
