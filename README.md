@@ -62,5 +62,5 @@ Aqui está um exemplo de como criar um BugHunter e calcular sua pontuação:
   };
 
   var bugHunter = new BugHunter(1, "Developer", email, new SolvedBugs(resolutions));
-  var totalPoints = bugHunter.SolvedBugs.CalculateTotal();
-  Console.WriteLine($"Total Points: {totalPoints}");
+  var totalScore = bugHunter.GetSolvedBugsScore();
+  Console.WriteLine($"Total Score: {totalScore}");
