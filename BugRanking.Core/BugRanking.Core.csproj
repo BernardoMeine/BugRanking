@@ -4,6 +4,24 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    
+    <PackageId>BugRanking</PackageId>
+    <Version>1.0.0</Version>
+    <License>MIT</License>
+    <Authors>Bernardo Meine</Authors>
+    <PackageDescription>A package that helps you create and rank bug hunters</PackageDescription>
+    <Description>A package that helps to create and rank bug hunters</Description>
+    <RepositoryUrl>https://github.com/BernardoMeine/BugRanking</RepositoryUrl>
+    <RepositoryProjectUrl>https://github.com/BernardoMeine/BugRanking</RepositoryProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>bugs;hunting;rank;tests</PackageTags>
+    <Title>BugRanking</Title>
+    <Summary>A package that helps you create and rank bug hunters</Summary>
   </PropertyGroup>
+  
+  <ItemGroup>
+    <None Include="..\Media\icon.png" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
 </Project>

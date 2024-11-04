@@ -22,7 +22,6 @@ public class BugHunterTest
   [TestMethod]
   public void Solved_bugs_should_match()
   {
-    // Exemplo de teste - verifica se a pontuação total está correta
     int expectedScore = resolutions.Sum(r => r.Quantity * (int)r.Difficulty);
     int actualScore = _hunterBob.GetSolvedBugsScore();
 
@@ -68,7 +67,7 @@ public class BugHunterTest
 
     bugHunter.SolvedBugs.Resolutions.AddRange(newResolutions);
 
-    int expectedScore = (2 * (int)EDifficulty.Easy) + (4 * (int)EDifficulty.Medium);
+    var expectedScore = (2 * (int)EDifficulty.Easy) + (4 * (int)EDifficulty.Medium);
     Assert.AreEqual(expectedScore, bugHunter.GetSolvedBugsScore());
   }
 
