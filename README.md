@@ -32,6 +32,14 @@ A classe **Ranking** organiza os BugHunters de acordo com o total de pontos acum
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) instalado na máquina.
 - IDE com suporte a .NET, como [Visual Studio](https://visualstudio.microsoft.com/) ou [Rider](https://www.jetbrains.com/rider/).
 
+### Pacote Nuget
+
+Subi o BugRanking como um nuget package, dessa forma você pode executá-lo tanto como um projeto quanto um pacote do nuget através do terminal como demonstrado abaixo:
+
+   ```bash
+   dotnet add package BugRanking --version 1.0.0
+   ```
+
 ### Passos para Executar
 
 1. Clone este repositório:
