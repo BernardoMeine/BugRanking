@@ -10,7 +10,7 @@
     <License>MIT</License>
     <Authors>Bernardo Meine</Authors>
     <PackageDescription>A package that helps you create and rank bug hunters</PackageDescription>
-    <Description>A package that helps to create and rank bug hunters</Description>
+    <Description>A package that helps devs to create and rank bug hunters</Description>
     <RepositoryUrl>https://github.com/BernardoMeine/BugRanking</RepositoryUrl>
     <RepositoryProjectUrl>https://github.com/BernardoMeine/BugRanking</RepositoryProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
